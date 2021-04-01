@@ -12,7 +12,7 @@ class App extends Component {
     localStorage.setItem('Arena', 'Selection Month');
   }
   getLocalStorage() {
-    var myLocalStorageData = localStorage.getItem('Arena');
+    let myLocalStorageData = localStorage.getItem('Arena');
   }
 }
 export default App;
