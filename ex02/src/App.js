@@ -9,11 +9,11 @@ class App extends Component {
     )
   }
   getMyStorage() {
-    var myCookieData = document.cookie.split(';')
+    let myCookieData = document.cookie.split(';')
       .find(row => row.startsWith('Year='))
       .split('=')[1];
-    var myLocalStorageData = localStorage.getItem('Paragon');
-    var mySessionStorageData = sessionStorage.getItem('frontend');
+    let myLocalStorageData = localStorage.getItem('Paragon');
+    let mySessionStorageData = sessionStorage.getItem('frontend');
   }
   setMyStorage() {
     document.cookie = "Year=2021";
