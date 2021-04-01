@@ -13,7 +13,6 @@ class App extends Component {
   }
   getLocalStorage() {
     var myLocalStorageData = localStorage.getItem('Arena');
-    console.log(myLocalStorageData);
   }
 }
 export default App;
