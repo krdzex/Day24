@@ -14,7 +14,6 @@ class App extends Component {
       .split('=')[1];
     var myLocalStorageData = localStorage.getItem('Paragon');
     var mySessionStorageData = sessionStorage.getItem('frontend');
-    console.log(myCookieData, myLocalStorageData, mySessionStorageData);
   }
   setMyStorage() {
     document.cookie = "Year=2021";
